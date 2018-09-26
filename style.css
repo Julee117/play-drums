@@ -29,9 +29,21 @@ body,html {
   width: 5rem;
   padding: 0.5rem 1rem;
   text-align: center;
+  transition: all 0.07s;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #0066ff;
+  box-shadow: 0 0 2rem #0066ff;
+}
+
+.sound {
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
 }
